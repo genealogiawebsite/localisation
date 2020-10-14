@@ -15,16 +15,27 @@
         "role": "Developer"
     }],
     "require": {
+<<<<<<< HEAD
         "genealogiawebsite/core": "^5.0",
         "genealogiawebsite/forms": "^4.0",
         "genealogiawebsite/helpers": "^2.0",
         "genealogiawebsite/select": "^4.0",
         "genealogiawebsite/migrator": "^2.0",
         "genealogiawebsite/tables": "^4.0"
+=======
+        "genealogiawebsite/core": "^6.0",
+        "genealogiawebsite/forms": "^4.0",
+        "genealogiawebsite/helpers": "^2.0",
+        "genealogiawebsite/select": "^4.0",
+        "genealogiawebsite/migrator": "^2.0",
+        "genealogiawebsite/tables": "^4.0"
+>>>>>>> origin/master
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Localisation\\": "src/"
+            "LaravelEnso\\Localisation\\": "src/",
+            "LaravelEnso\\Localisation\\Database\\Factories\\": "database/factories/",
+            "LaravelEnso\\Localisation\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
