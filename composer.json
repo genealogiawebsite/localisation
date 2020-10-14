@@ -1,26 +1,26 @@
 {
-    "name": "laravel-enso/localisation",
+    "name": "genealogiawebsite/localisation",
     "description": "Localisation management dependency for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "genealogiawebsite",
         "localisation"
     ],
-    "homepage": "https://github.com/laravel-enso/localisation",
+    "homepage": "https://github.com/genealogiawebsite/localisation",
     "type": "library",
     "license": "MIT",
     "authors": [{
         "name": "Adrian Ocneanu",
         "email": "aocneanu@gmail.com",
-        "homepage": "https://laravel-enso.com",
+        "homepage": "https://genealogiawebsite.com",
         "role": "Developer"
     }],
     "require": {
-        "laravel-enso/core": "^5.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/select": "^4.0",
-        "laravel-enso/migrator": "^2.0",
-        "laravel-enso/tables": "^4.0"
+        "genealogiawebsite/core": "^5.0",
+        "genealogiawebsite/forms": "^4.0",
+        "genealogiawebsite/helpers": "^2.0",
+        "genealogiawebsite/select": "^4.0",
+        "genealogiawebsite/migrator": "^2.0",
+        "genealogiawebsite/tables": "^4.0"
     },
     "autoload": {
         "psr-4": {
